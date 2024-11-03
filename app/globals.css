@@ -7,6 +7,12 @@
   --foreground: #171717;
 }
 
+html,body{
+  -webkit-overflow-scrolling : touch !important;
+  overflow: auto !important;
+  height: 100% !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: red;
@@ -17,5 +23,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
