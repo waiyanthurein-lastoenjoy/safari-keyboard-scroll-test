@@ -4,7 +4,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='bg-gray-400 max-w-[480px] w-full  h-[100vh] mx-auto  relative overflow-hidden'>
-      <p className='mt-1 text-white absolute top-1 left-0 max-w-[480px] w-full text-[20px] font-bold text-center'> Version 3  </p>
+      <p className='mt-1 text-white absolute top-1 left-0 max-w-[480px] w-full text-[20px] font-bold text-center'> Version 4 (dvh)  </p>
 
       <div className='flex flex-col gap-y-1 w-full px-1 mt-12 overflow-scroll h-[calc(100%-40px)]'>
       {Array.from({ length: 50 }, (_, index) => (
