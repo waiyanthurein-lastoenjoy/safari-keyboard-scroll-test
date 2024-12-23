@@ -10,7 +10,7 @@
 html,body{
   -webkit-overflow-scrolling : touch !important;
   overflow: auto !important;
-  height: 100% !important;
+  height: 100dvh !important;
 }
 
 @media (prefers-color-scheme: dark) {
